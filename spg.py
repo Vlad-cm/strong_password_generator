@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import random
 import string
 import sys
@@ -88,3 +90,6 @@ def generate_password(len_, count):
 
 for pass_ in generate_password(params.get("len"), params.get("count")):
     print(*pass_, sep="")
+
+if sys.platform == "win32":
+    input()
