@@ -43,7 +43,7 @@ if len(sys.argv) > 1:
     if "-lc" in sys.argv:
         params.update({"low_case": sys.argv[sys.argv.index("-lc") + 1]})
     if "-uc" in sys.argv:
-        params.update({"up_case": sys.argv[sys.argv.index("-ul") + 1]})
+        params.update({"up_case": sys.argv[sys.argv.index("-uc") + 1]})
     if "-s" in sys.argv:
         params.update({"special": sys.argv[sys.argv.index("-s") + 1]})
     if "-p" in sys.argv:
